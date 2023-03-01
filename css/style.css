@@ -131,3 +131,25 @@ border-radius: 20px;
 .hidden {
     display: none;
 }
+
+@media (max-width:375px) {
+ .rate-container {
+  width: 330px;
+}
+
+.rates {
+    list-style: none;
+    margin-right: 15px;
+    font-family: 'Overpass' san-serif;
+    font-weight: 700;
+}
+
+ .thanks-for-rate {
+   width: 330px;
+ }
+
+ .your-choice {
+    font-size: 14px;
+ }
+
+}
